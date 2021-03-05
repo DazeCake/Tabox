@@ -22,14 +22,10 @@ Common:   # 组名
     - https://www.zhihu.com/
     - 问答社区
     - zhihu.png
-  Notion:
-    - https://www.notion.so/
-    - 笔记
-    - notion.png
-  Colib:
-    - https://colab.research.google.com/
-    - 写Python
-    - colib.png
+  # Colib:
+  #   - https://colab.research.google.com/
+  #   - 写Python
+  #   - colib.png
   ProcessOn:
     - https://www.processon.com/
     - 画图
@@ -43,31 +39,39 @@ MyWeb:
   logo: web.png
   description: 我的网站
 
-  Home:
-    - https://fzf404.top/
-    - Home Page
-    - home.png
+  # Home:
+  #   - https://blog.dazecake.moe/
+  #   - Home Page
+  #   - home.png
   Blog:
-    - https://blog.fzf404.top/
-    - 写作博客
+    - https://blog.dazecake.moe/
+    - 博客
     - blog.png
-  Note:
-    - https://note.fzf404.top/
-    - 笔记博客
-    - note.png
-  Movie:
-    - http://video.fzf404.top/
-    - 影视解析
-    - movie.png
-  Download:
-    - http://dl.fzf404.top/
-    - 小水管下载站
-    - download.png
+  # Note:
+  #   - https://note.fzf404.top/
+  #   - 笔记博客
+  #   - note.png
+  # Movie:
+  #   - http://video.fzf404.top/
+  #   - 影视解析
+  #   - movie.png
+  # Download:
+  #   - http://dl.fzf404.top/
+  #   - 小水管下载站
+  #   - download.png
+  MCSM:
+    - http://ls.dazecake.top:13939/
+    - 服务器面板
+    - pm.png
+  Mirai:
+    - https://mirai.mamoe.net/
+    - Mirai论坛
+    - mamoe.png
 
 # 输入用户名自动加载Github库
 Github:
   # 用户名
-  name: fzf404
+  name: DazeCake
   # 侧边栏的Logo
   logo: github.png
   # 描述
@@ -81,17 +85,11 @@ Github:
   HomePage: home.png
   # 不展示的库名
   Ignore:
-    - fzf404
-    - note
-    - fzf404.github.io
-    - BPY
-    - BadUSB
-    - DjangoTemp
-    - ExpressTemp
-    - hexo_action
-    - OpusWeb
-    - rdoc-theme-fzf
-    - VideoPage
+    - BUG
+    - CakeMania
+    - DazeCake.github.io
+    - image-host
+    - Tabox
 
 Develop:
   logo: code.png
@@ -170,9 +168,9 @@ Tools:
   description: 实用工具
 
   OPSX:
-     - https://developer.aliyun.com/mirror/
-     - 阿里镜像站
-     - aliyun.png
+    - https://developer.aliyun.com/mirror/
+    - 阿里镜像站
+    - aliyun.png
   IconFont:
     - https://www.iconfont.cn/
     - 阿里图标
@@ -182,13 +180,13 @@ Tools:
     - 免费图像素材
     - pexels.png
   Aliyun:
-     - https://swas.console.aliyun.com/#/servers
-     - 阿里控制台
-     - aliyun.png
-  # Greasy Fork:
-  #   - https://greasyfork.org/zh-CN/
-  #   - 油猴脚本
-  #   - monkey.png
+    - https://swas.console.aliyun.com/#/servers
+    - 阿里控制台
+    - aliyun.png
+  Greasy Fork:
+    - https://greasyfork.org/zh-CN/
+    - 油猴脚本
+    - monkey.png
   Extensions:
     - https://https://chrome.google.com/webstore/category/extensions
     - Chrome扩展
@@ -208,10 +206,6 @@ Memo:
   logo: memo.png
   description: 备忘录
   content: |
-    git clone https://github.com/fzf404/
-    git@github.com:fzf404/
-
-    wget http://dl.fzf404.top/info
-
-    Tencent: 42.193.122.21
-    V2ray: 149.129.55.203
+    1）pkill frpc (结束所有的frpc进程)
+    2）ps aux | grep frpc (查看frpc的信息,主要需要对应的pid，用于下面命令结束进程)
+    3）kill -15 pid (指定结束frpc)

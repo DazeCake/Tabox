@@ -51,7 +51,7 @@ export default function App() {
           level={3}
           style={{
             color: '#eee',
-            marginLeft: collapsed ? 140 : 220,
+            float: 'right',
             marginTop: 16,
           }}>
           {new Date().getHours() < 10 ? "0" + new Date().getHours() : new Date().getHours()}:
