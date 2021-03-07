@@ -1,0 +1,211 @@
+# 标签的配置
+
+Common:   # 组名
+  # 组 Logo
+  logo: common.png
+  # 组描述
+  description: 常用网站
+
+  # 一个子标签页
+  Bilibili:
+    # 标签页的地址
+    - https://www.bilibili.com/
+    # 标签的描述
+    - 年轻人的社区
+    # 标签的Logo, 从/public/logo/目录中加载, 可自行添加
+    - bili.png
+  Github:
+    - https://www.github.com/
+    - 同性交友网站
+    - github.png
+  Zhihu:
+    - https://www.zhihu.com/
+    - 问答社区
+    - zhihu.png
+  # Colib:
+  #   - https://colab.research.google.com/
+  #   - 写Python
+  #   - colib.png
+  ProcessOn:
+    - https://www.processon.com/
+    - 画图
+    - processon.png
+  Runoob:
+    - https://www.runoob.com/
+    - 菜鸟教程
+    - runoob.png
+
+MyWeb:
+  logo: web.png
+  description: 我的网站
+
+  # Home:
+  #   - https://blog.dazecake.moe/
+  #   - Home Page
+  #   - home.png
+  Blog:
+    - https://blog.dazecake.moe/
+    - 博客
+    - blog.png
+  # Note:
+  #   - https://note.fzf404.top/
+  #   - 笔记博客
+  #   - note.png
+  # Movie:
+  #   - http://video.fzf404.top/
+  #   - 影视解析
+  #   - movie.png
+  # Download:
+  #   - http://dl.fzf404.top/
+  #   - 小水管下载站
+  #   - download.png
+  MCSM:
+    - http://ls.dazecake.top:13939/
+    - 服务器面板
+    - pm.png
+  Mirai:
+    - https://mirai.mamoe.net/
+    - Mirai论坛
+    - mamoe.png
+
+# 输入用户名自动加载Github库
+Github:
+  # 用户名
+  name: DazeCake
+  # 侧边栏的Logo
+  logo: github.png
+  # 描述
+  description: 我的代码仓库
+
+  # 指定特定库的Logo
+  Tabox: box.png
+  Tech_Note: document.png
+  CameraHelper: camera.png
+  GoWebHooks: relax.png
+  HomePage: home.png
+  # 不展示的库名
+  Ignore:
+    - BUG
+    - CakeMania
+    - DazeCake.github.io
+    - image-host
+    - Tabox
+
+Develop:
+  logo: code.png
+  description: 开发社区
+
+  Gitee:
+    - https://www.gitee.com/
+    - 国内代码仓库
+    - gitee.png
+  YuQue:
+    - https://www.yuque.com/
+    - 好用的文档库
+    - yuque.png
+  Juejin:
+    - https://juejin.cn/
+    - 技术文章聚集地
+    - juejin.png
+  SegFault:
+    - https://segmentfault.com/
+    - 思否社区
+    - sf.png
+  V2ex:
+    - https://www.v2ex.com/
+    - 程序员的贴吧
+    - v2ex.png
+  StackOverFlow:
+    - https://stackoverflow.com/
+    - 秒杀CSDN
+    - stackoverflow.png
+  LeetCode:
+    - https://leetcode-cn.com/
+    - 立扣题库
+    - leetcode.png
+  Npm:
+    - https://www.npmjs.com/
+    - Node软件源
+    - npm.png
+
+  # 一些奇奇怪怪的注释
+  # Documnet:
+  #   logo: document.png
+  #   description: 开发文档
+
+  Antd:
+    - https://ant.design/components/overview-cn/
+    - 开发文档
+    - antd.png
+  Element:
+    - https://element.eleme.cn/#/zh-CN/component/
+    - 开发文档
+    - element.png
+  MicroSoft:
+    - https://docs.microsoft.com/zh-cn/learn/
+    - 微软学习文档
+    - microsoft.png
+
+HardWare:
+  logo: hardware.png
+  description: 硬件社区
+
+  Arduino:
+    - https://www.arduino.cn/
+    - Arduino社区
+    - arduino.png
+  KeChuang:
+    - https://www.kechuang.org/
+    - 科创论坛
+    - kechuang.png
+  EDA:
+    - https://lceda.cn/editor
+    - 立创EDA
+    - pcb.png
+
+Tools:
+  logo: design.png
+  description: 实用工具
+
+  OPSX:
+    - https://developer.aliyun.com/mirror/
+    - 阿里镜像站
+    - aliyun.png
+  IconFont:
+    - https://www.iconfont.cn/
+    - 阿里图标
+    - iconfont.png
+  Pexels:
+    - https://www.pexels.com/zh-cn/
+    - 免费图像素材
+    - pexels.png
+  Aliyun:
+    - https://swas.console.aliyun.com/#/servers
+    - 阿里控制台
+    - aliyun.png
+  Greasy Fork:
+    - https://greasyfork.org/zh-CN/
+    - 油猴脚本
+    - monkey.png
+  Extensions:
+    - https://https://chrome.google.com/webstore/category/extensions
+    - Chrome扩展
+    - chrome.png
+  F2Pool:
+    - https://www.f2pool.com/
+    - 矿池
+    - f2pool.png
+
+  Youtube:
+    - https://www.youtube.com/
+    - 不存在的网站
+    - youtube.png
+
+# 备忘录 - 一些常用的字符串可备注于此
+Memo:
+  logo: memo.png
+  description: 备忘录
+  content: |
+    1）pkill frpc (结束所有的frpc进程)
+    2）ps aux | grep frpc (查看frpc的信息,主要需要对应的pid，用于下面命令结束进程)
+    3）kill -15 pid (指定结束frpc)
